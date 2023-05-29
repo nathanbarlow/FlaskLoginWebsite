@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Protected Page{% endblock %}
+
+{% block content %}
+  <h1>Welcome to the Protected Page</h1>
+  <p>You are logged in and can access this page.</p>
+  <a href="{{ url_for('logout') }}" class="btn btn-danger">Logout</a>
+{% endblock %}
