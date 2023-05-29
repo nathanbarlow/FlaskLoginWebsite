@@ -4,8 +4,16 @@
 <div class="jumbotron">
     <div class="text-center">
         <h1>Welcome to My Website</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a href="#" class="btn btn-primary btn-get-started">Get Started</a>
+        <p>
+            Introducing our Flask app template, a versatile solution for user
+            account creation and login. With an intuitive interface, users can
+            easily register and access exclusive pages. Powered by SQLite, our
+            site ensures secure data storage. Implementing user authentication
+            and authorization has never been simpler. Try our Flask app
+            template today for a seamless user experience.
+        </p>
+        <!-- link to login page -->
+        <a href="{{ url_for('login') }}" class="btn btn-primary btn-login">Login</a>
     </div>
 </div>
 {% endblock %}

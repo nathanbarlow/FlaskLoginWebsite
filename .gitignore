@@ -1,0 +1,28 @@
+# Ignore virtual environment
+venv/
+
+# Ignore environment-specific files
+.env
+*.env
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore development server files
+*.pid
+*.sock
+
+# Ignore logs
+*.log
+
+# Ignore database files
+*.db
+
+# Ignore generated/static files
+static/
+
+# Ignore dependencies
+lib/
+bin/
+include/
